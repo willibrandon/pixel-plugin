@@ -1,5 +1,5 @@
 ---
-name: Pixel Art Exporter
+name: pixel-art-exporter
 description: Export sprites to PNG, GIF, or spritesheet formats with JSON metadata for game engines. Use when the user wants to "export", "save", "output", "render", "generate", "create file", mentions file formats like "PNG", "GIF", "animated GIF", "spritesheet", "sprite sheet", "texture atlas", "tile sheet", or game engine integration with "Unity", "Godot", "Phaser", "Unreal", "GameMaker". Trigger on layout terms ("horizontal", "vertical", "grid", "packed", "strip"), scaling ("2x", "4x", "upscale", "pixel-perfect"), file operations ("save as", "export to", "output to"), metadata formats ("JSON", "XML", "metadata", "atlas data"), and delivery terms ("for web", "for game", "for Twitter", "for itch.io", "optimized").
 allowed-tools: Read, Bash, mcp__aseprite__export_png, mcp__aseprite__export_gif, mcp__aseprite__export_spritesheet, mcp__aseprite__get_sprite_info
 ---
