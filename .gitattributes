@@ -1,0 +1,9 @@
+# The MCP server wrapper must keep LF line endings: with core.autocrlf on
+# Windows checkouts it would otherwise be rewritten to CRLF, which breaks
+# bash execution of the script (Git Bash reads the shebang line with \r).
+bin/pixel-mcp text eol=lf
+*.sh text eol=lf
+
+# Platform binaries must never be touched by line-ending conversion
+bin/pixel-mcp-* binary
+bin/pixel-mcp.exe binary

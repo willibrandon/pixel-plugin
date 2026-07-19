@@ -3,9 +3,6 @@
     "aseprite": {
       "command": "${CLAUDE_PLUGIN_ROOT}/bin/pixel-mcp",
       "args": [],
-      "env": {
-        "PIXEL_MCP_CONFIG": "${HOME}/.config/pixel-mcp/config.json"
-      },
       "disabled": false,
       "alwaysAllow": [],
       "description": "Pixel MCP Server - Provides pixel art creation, animation, and export capabilities"
